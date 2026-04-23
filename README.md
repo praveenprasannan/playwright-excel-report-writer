@@ -86,7 +86,7 @@ export class ExcelWriter {
 ```
 
 ## Using the writer in tests or hooks
-Call the wrapper from your Playwright hooks (if using any BDD framework) or test lifecycle code.
+Call the wrapper from your Playwright hooks _(if using any BDD framework)_ or test lifecycle code.
 
 
 ```ts
