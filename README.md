@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="assets/cover-photo.png" width="520 alt="playwright-excel-report-writer" />
+  <img src="assets/cover-photo.png" width="520" alt="playwright-excel-report-writer" />
 </p>
 
 # playwright-excel-report-writer
