@@ -2,10 +2,10 @@ import ExcelJS from 'exceljs';
 import * as fs from 'fs';
 import * as path from 'path';
 
-import { ExcelWriterConfig } from '../types/WriterConfig';
-import { TestResultRow } from '../types/TestResultRow';
-import { LockManager } from './LockManager';
-import { Formatter } from './Formatter';
+import type { ExcelWriterConfig } from '../types/WriterConfig.js';
+import type { TestResultRow } from '../types/TestResultRow.js';
+import { LockManager } from './LockManager.js';
+import { Formatter } from './Formatter.js';
 
 /**
  * ExcelJS image extension type (official)

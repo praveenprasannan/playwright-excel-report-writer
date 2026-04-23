@@ -1,18 +1,19 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "CommonJS",
+    "target": "es2025",
+    "module": "esnext",
+    "ignoreDeprecations": "6.0",
+    "moduleResolution": "node",
 
     "rootDir": "src",
     "outDir": "dist",
 
     "declaration": true,
     "strict": true,
+    "skipLibCheck": true,
 
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "ignoreDeprecations": "6.0",
-    "moduleResolution": "node",
+    "verbatimModuleSyntax": true,
     "types": ["node"]
   },
   "include": ["src"]

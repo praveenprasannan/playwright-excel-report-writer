@@ -24,7 +24,7 @@
   ],
   "author": "Praveen Prasannan",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/praveenprasannan/playwright-excel-report-writer/issues"
   },

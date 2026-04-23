@@ -30,8 +30,24 @@ supports **parallel Playwright execution** via file locking.
 
 ---
 
+## Module format
+
+This package is published as **ESM-only**.
+
+✅ Works with:
+- Playwright
+- TypeScript
+- Node.js 18+
+
+❌ Not supported:
+- `require()` (CommonJS)
+
+If you need CommonJS support, please open an issue.
+
+---
+
 ## Installation
 
 ```bash
 npm install playwright-excel-report-writer exceljs
-``
+```

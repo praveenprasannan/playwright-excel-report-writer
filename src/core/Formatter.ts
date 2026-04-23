@@ -1,5 +1,5 @@
 import ExcelJS from 'exceljs';
-import { StyleConfig } from '../types/WriterConfig';
+import type { StyleConfig } from '../types/WriterConfig.js';
 
 export class Formatter {
 
