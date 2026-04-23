@@ -1,6 +1,6 @@
 {
   "name": "playwright-excel-report-writer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Excel report engine for Playwright with safe screenshot handling and parallel execution support",
   "author": "Praveen Prasannan",
   "license": "MIT",
