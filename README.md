@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/cover-photo.png" width="420 alt="playwright-excel-report-writer" />
+</p>
+
 # playwright-excel-report-writer
 
 A low-level Excel reporting engine for Playwright and test automation frameworks.
