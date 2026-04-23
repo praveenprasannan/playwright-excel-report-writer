@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="assets/cover-photo.png" width="420 alt="playwright-excel-report-writer" />
+<p align="left">
+  <img src="assets/cover-photo.png" width="520 alt="playwright-excel-report-writer" />
 </p>
 
 # playwright-excel-report-writer
@@ -12,7 +12,7 @@ This package solves a long-standing ExcelJS limitation:
 The engine rebuilds worksheets safely while preserving screenshots and
 supports **parallel Playwright execution** via file locking.
 
----
+---s
 
 ## ✅ What this package does
 
