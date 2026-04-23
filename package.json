@@ -2,8 +2,17 @@
   "name": "playwright-excel-report-writer",
   "version": "1.0.0",
   "description": "Excel report engine for Playwright with safe screenshot handling and parallel execution support",
+  "author": "Praveen Prasannan",
+  "license": "MIT",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -15,26 +24,29 @@
     "type": "git",
     "url": "git+https://github.com/praveenprasannan/playwright-excel-report-writer.git"
   },
-  "keywords": [
-    "playwright",
-    "excel",
-    "exceljs",
-    "report",
-    "automation"
-  ],
-  "author": "Praveen Prasannan",
-  "license": "MIT",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/praveenprasannan/playwright-excel-report-writer/issues"
   },
   "homepage": "https://github.com/praveenprasannan/playwright-excel-report-writer#readme",
+  "keywords": [
+    "playwright",
+    "excel",
+    "exceljs",
+    "excel-report",
+    "test-report",
+    "automation",
+    "e2e",
+    "testing"
+  ],
+  "peerDependencies": {
+    "exceljs": "^4.4.0"
+  },
   "devDependencies": {
     "@types/node": "^25.6.0",
     "typescript": "^6.0.3",
     "exceljs": "^4.4.0"
   },
-  "peerDependencies": {
-    "exceljs": "^4.4.0"
+  "engines": {
+    "node": ">=18"
   }
 }
