@@ -12,7 +12,7 @@ This package solves a long-standing ExcelJS limitation:
 The engine rebuilds worksheets safely while preserving screenshots and
 supports **parallel Playwright execution** via file locking.
 
----s
+---
 
 ## ✅ What this package does
 
