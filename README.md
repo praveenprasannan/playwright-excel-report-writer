@@ -31,7 +31,11 @@ All ExcelJS logic and file-handling complexity is managed internally by the pack
 Create a helper file in your Playwright project.
 
 ```ts
-import { ExcelReportWriter, type ExcelWriterConfig, type TestResultRow } from 'playwright-excel-report-writer';
+import { 
+  ExcelReportWriter,
+  type ExcelWriterConfig,
+  type TestResultRow 
+} from 'playwright-excel-report-writer';
 
 export class ExcelWriter {
   private static readonly config: ExcelWriterConfig = {
@@ -43,7 +47,8 @@ export class ExcelWriter {
 
     sheet: {
       strategy: 'by-browser',
-      // Test Results - Edge || Test Results - Chrome || Test Results - Firefox (sheet names) as per your test run
+      // Sheet names as per your test run
+      // eg: Test Results - Chrome
       namePattern: 'Test Results - {browser}'
     },
 
